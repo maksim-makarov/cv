@@ -1,0 +1,80 @@
+@media screen and (max-width:1280px) {
+    main {
+        width: 85%;
+    }
+    .lang__list img,
+    .skills_list img {
+        width: 12px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+   .lang__list img,
+   .skills_list img {
+       width: 12px;
+       margin-right: 1px;
+   }
+   .skills-flex {
+    display: block;
+   }
+   main {
+       width: 95%;
+   }
+   .left__info {
+    width: 85%;
+   }
+}
+
+@media screen and (max-width:768px) {
+    .hobbies-flex {
+        display: block;
+    }
+   .skills_list img {
+       margin-right: 10px;
+   }
+}
+
+@media screen and (max-width:600px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left, .right {
+        width: 95%;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+    
+    .lang__list img, .skills_list img {
+    width: 12px;
+    margin-right: 10px;
+    }
+
+    .right__container {
+        width: 95%;
+    }
+
+    .hobbies-flex {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .place {
+        display: block;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .left__face, .left__info {
+        width: 95%;
+    }
+
+    .lang__list img, .skills_list img {
+    width: 12px;
+    margin-right: 3px;
+    }
+}
