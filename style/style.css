@@ -89,8 +89,6 @@ main {
     margin-bottom: 20px;
 }
 
-.contact {}
-
 .contact_list li,
 .follow__list li {
     display: flex;
@@ -108,14 +106,6 @@ main {
     margin-right: 10px;
 }
 
-.follow {}
-
-.follow__list {}
-
-.lang {}
-
-.lang__list {}
-
 .lang__list li, .place, .skills_list li {
     display: flex;
     align-items: center;
@@ -127,18 +117,13 @@ main {
     margin-right: 10px;
 }
 
-.hobbies {}
-
 .hobbies-flex, .skills-flex {
     display: flex;
     justify-content: space-between;
 }
 
-.hobbies__list {}
-
 .right {
     width: 68%;
-
 }
 
 .right__container {
@@ -154,8 +139,6 @@ main {
     margin-bottom: 25px;
 }
 
-.about {}
-
 .title {
     display: flex;
     align-items: center;
@@ -167,17 +150,9 @@ main {
     margin-right: 10px;
 }
 
-.education {}
-
 .place {
     margin-bottom: 15px;
 }
-
-.expirience {}
-
-.skills {}
-
-.skills-flex {}
 
 .skills_list img:first-of-type {
     margin-left: 20px;
